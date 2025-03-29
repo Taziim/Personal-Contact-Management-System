@@ -1,0 +1,51 @@
+=====Window object manipulation=====
+--DOM meaning document object model
+--BOM meaning browser object model
+--BOM Apis Screen,Navigator,Location
+=====DOM Manipulation=====
+--get the element first 
+--event listening meaning i want to listen an event(mouse moved,cursor moved)
+--to grab the event write document.getelement(ID).addeventlistner('event',function(){
+});
+--event listener takes two parameter(What event should i listen and what functunality should i perform
+--arroy function always pointing to the global this
+--only just function refer to the current context
+--firstelementchild to grab the first element in list or order
+--DOM is a processed elements in a document tree in memory
+--add event lister you can find in mdn docs
+
+====DOM List =====
+-----grab the element using below commands-----
+--getelementbyid
+--getelementbyclass
+--getelementbytag
+--querySelector
+--querySelectorAll
+--$0
+------update the element using the below commands -----
+--innerhtml.
+--outerhtml.
+--text-content.
+--innertext.
+------ add element ----
+--createlement
+--appendchild(add child at the last of the elements).
+--insertAdjacentelement(to add child in any position).
+----- remove element -----
+--remove-child --
+
+
+##### Styling element #####
+--style property to set the element styling--
+--csstext can get multiple elements to styling--
+--setAtributte to set the element to styling--
+--ClassName to add the classes in the styling--
+
+
+
+
+##### Event Listern #####
+-- addeventlistner to add --
+-- to remove removeeventlistern --
+### advance javascript ###
+--

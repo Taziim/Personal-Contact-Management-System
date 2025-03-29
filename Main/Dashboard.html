@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="Dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="header">
+        <div class="header-left">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="header-right">
+          <i class="fa-solid fa-bell"></i>
+          <i class="fa-solid fa-envelope"></i>
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </div>
+
+
+      <div class="sidebar">
+        <div class="menu-icon" onclick="openSidebar()">
+          <h2>Welcome</h2>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+          <ul class="sidebar-list">
+            <li><a href="">Phone Number</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+          </ul>
+      </div>
+
+
+      <div class="main">
+        <div class="leftbox">
+          <h1>Add Mobile numbers</h1>
+          <div class="input-group">
+              <input id="mobil-input" type="text" placeholder="Enter mobile number" maxlength="15">
+              <button type="submit" id="mobil-number-button">Add</button>
+          </div>
+          <span>No mobile numbers added yet</span>
+        </div>
+        <div class="rightbox">
+          <div class="search-bar">
+            <input type="text" placeholder="Search contacts...">
+        </div>
+        <div class="contacts-list">
+          <div class="contact-card">
+              <div class="contact-name">John Doe</div>
+              <div class="contact-number">+1 (555) 123-4567</div>
+              <div class="contact-actions">
+                  <button>Edit</button>
+                  <button class="delete">Delete</button>
+              </div>
+          </div>
+          
+          <div class="contact-card">
+              <div class="contact-name">Jane Smith</div>
+              <div class="contact-number">+1 (555) 987-6543</div>
+              <div class="contact-actions">
+                  <button>Edit</button>
+                  <button class="delete">Delete</button>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <script src="./Dashboard.js"></script>
+  </body>
+</html>

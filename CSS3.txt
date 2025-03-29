@@ -1,0 +1,17 @@
+### FLOAT ##
+--float use to position elements or pic with in the paragraph.
+--clear keyword to shift the img or paragraph within the two.
+--overflow keyword help elemets to overflow.
+--basically use for float.
+--css-tricks website gives you the details.
+
+
+
+### MEDIA QUERIES ###
+--tool defined in terms of display
+
+
+### SHADOW ###
+--text shadow and box shadow two types.
+--box shadow to create the show x and y axis.
+--inset element to do shadow inside the box.

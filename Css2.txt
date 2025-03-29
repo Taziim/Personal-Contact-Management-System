@@ -1,0 +1,42 @@
+###Box Model###
+--there are two types of box model--
+--box sizzing default to content box--
+--content box the width and height you set for an element only include the content area. The padding and border are added to the width and height, which means the total size of the element will be larger than the width and height you specify--
+--border box With this box model, the width and height you set for an element include the padding and border. This means the total size of the element will be exactly what you specify in the width and height, and it won't grow due to padding or border--
+###inline element and block level element###
+--block level element takes up the full width--
+--An inline element does not start on a new line; it stays in the same line as the surrounding content--
+### FlexBox ###
+--Main access run from left to right--
+--flex direction determine the direction row or column--
+--alight items start from top to bottom access--
+--justify content works on main access--
+--flex wrap move to next line--can add height--
+--align content distribution of space between and around content items along the cross-axis (vertical axis in a row layout and horizontal axis in a column layout).
+--order property works within the child--
+--flex grow control the inner element--
+--aligh self injected within the child--control top to bottom--
+--flex property to give width all the container
+--flexbox suitable for navbaar.
+--vertical axis known as cross axis.
+--horixontal axis known as main axis.
+--by defualt flex direction row.
+--flex direction property to select the items row or colmn.
+--flex wrap property to wrap when the screen squeze.
+--justify content to design items in terms of main axis.
+--aligh items property to alight the items.it helps to do items centre from x axis and y axis.
+--justify content and alight items use both to center the items both.
+--align content to alight the content x axis or w axis.
+--order property to order the items in the flex box.
+--flex grow and shrink work with items in the flex box.
+--flex basis create dimension meaning width.
+### Grid ###
+--gtc give the page column--
+--gtr give the row--
+--gap property to give an amount of gap within the container--
+--repeat keyword takes two things count and size--
+--nth child will select the child--
+--grid column and row adjust the row and column in the inner elements--
+--grid area to give different name of each elements--
+--grid template areas to control the grid areas--
+

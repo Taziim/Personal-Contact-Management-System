@@ -1,0 +1,5 @@
+JavaScript library used for building user interfaces (UIs), especially for single-page applications (SPAs). 
+
+##### Componets #####
+--Componets is like functions(function and class based)--
+--it is a section in the webpage--

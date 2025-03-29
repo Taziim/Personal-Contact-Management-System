@@ -1,0 +1,35 @@
+=====Data Types=====
+--String--
+--Number--
+--Boolean--
+--Bigint--
+--Undefined--(no defination for you)
+--Null--(means that it is empty)
+--Symbol--
+--object--
+
+=====variable=====
+--variable is like placeholder--
+--variable declaration --var num--
+--variable declaration --let num--
+--to declare variable we can use const, var, let keywords--
+
+=====Ternary Operator =====
+--condition ? exprIfTrue : exprIfFalse--
+=====Nullish Coalescing Operator (??)=====
+--leftExpr ?? rightExpr--
+
+=====Functions=====
+--a function is a reusable block of designed to perform a specific task
+--to decrale function 
+   function functionName(parameters) {
+  // function body
+}
+functionName(argument);
+
+
+
+===== Important Notes =====
+1.console.log will give you new line.
+2.const reserve some memory in the memeory space.
+3.

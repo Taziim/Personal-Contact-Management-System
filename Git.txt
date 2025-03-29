@@ -1,0 +1,30 @@
+--what is git--
+git is a software that trace the files code.
+
+==Git Commands==
+--git --version or git -v cmd to check the git version. 
+--git status cmd to check the git repository.
+--git init cmd to initialize the git in a folder.
+--cd .git cmd to enter into the git folder.
+--git add. cmd to add all the files in the tracking zone of the git 
+--git add filename cmd to specifically add one or several files to the git tracking zone
+--git commim -m cmd to commit the file 
+--git log cmd to see the history.
+--gitignore file to save sensitive files.You can save the important files in this file so that git cannot track the files for instance env.
+
+== git congigurations == 
+--git config --global user.name "Monalisa" cmd to config your name gloablly 
+--git config --global user.name "Monalisa" cmd to config your name gloablly 
+--cat ~/.gitconfig cmd to check the username and password.
+==importants commands==
+--mkdir cmd to make directories in the folder 
+--cd cmd to enter a folder 
+--ls cmd to check the folder
+--cd .. cmd to go back from the current folder.
+--pwd cmd to check present work directory.
+--
+--extension
+git lens 
+
+==Important informations==
+-git ignore generator to generate the template for the ignore file.

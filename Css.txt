@@ -1,0 +1,92 @@
+==CSS libarires==
+--Boostrap
+--Materlize css
+--tailwind css
+--Shadcn/ui
+--acerternity ui
+--Magic ui
+--daisy ui
+--mui ui
+--ant design
+
+
+==What is CSS==
+--css stands for casecading style sheet
+--inline stying meaning that style with in the line.
+         ==h1 style = "Color:Blue"
+--styling inside the head 
+         ==style h, p{
+                   color
+                   }
+--class being selected by . and id being selected #.
+--link:css to add the external css files to the html;
+
+=====CSS SELECTOR=====
+--ability to select any elements known as selectors--
+--universal selector{
+    *{
+
+    }
+}
+--type selector{
+    p{
+   
+    }
+}
+--class selector{
+    .className{
+
+    }
+}
+--id selector {
+    #id{
+
+    }
+}
+--attribute selector {
+    input [type="text"]{
+
+    }
+}
+--decendent selector {
+    article p{
+
+    }
+}
+--child selector {
+    ul > li {
+
+    }
+}
+--adjacent sibling selector {
+    h2 + p {
+
+    }
+}
+--general sibling selector {
+    h1 ~ p {
+
+    }
+}
+--pseudo-class selector {
+    a:hover {
+
+    }
+}
+--pseudo-element selector {
+    p:: {
+
+    }
+}
+--group selector {
+    p,p {
+
+    }
+}
+
+===Important CSS==
+--it is typically ok to have only one id in the websites.
+--div.classname to create a class name with div
+--button:submit etc to write the code shortcuts for any tags
+-- --varibale name: value; to create variable that can use multiple times in the css using the var keyword.
+-- variable can be defined in the root to use globally the value.
