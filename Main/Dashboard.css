@@ -173,20 +173,11 @@
 
 .leftbox {
   background-color: #fff;
-  padding: 30px;
+  padding: 50px;
   position: absolute;
   top: 10%;
   left: 5%;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.15);
-}
-.leftbox:hover {
-  padding: 30px;
-  position: absolute;
-  top: 10%;
-  left: 5%;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
-  transform: translate(5px,5px);
-  transition: all 0.3s ease;
 }
 
 h1 {
@@ -196,25 +187,27 @@ h1 {
 }
 .input-group {
   display: flex;
-  margin-bottom: 20px;
+  gap: 10px;
+  flex-direction: column;
+  margin-bottom: 10px;
   
 }
 .input-group input {
-  flex-grow:  1;
+  /* flex-grow:  1; */
   padding:8px;
   margin-left: 8px;
   border: 1px solid #ddd;
-  border-radius: 4px 0 0 4px;
+  border-radius: 4px;
   font-size: 1rem;
 }
 
 .input-group button {
   padding: 8px;
-  margin-right: 8px;
+  margin-left: 8px;
   background-color: #4CAF50;
   color: white;
   border: none;
-  border-radius: 0 4px 4px 0;
+  border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
 }

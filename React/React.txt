@@ -1,0 +1,2 @@
+#download node js first and then install node js into your system
+#
